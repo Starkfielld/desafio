@@ -11,7 +11,7 @@ output_desejado = "amazing is OpenAi World! hello,"
 output_real = str(sentenca_inversa(input))
 
 if output_real == output_desejado:
-    print("O caso de teste passou com sucesso!")
+    print("O caso de teste nº 1 passou com sucesso!")
     print("A mensagem insirida foi: ", input)
     print("O resultado foi: ", output_real )
 else:
@@ -37,7 +37,7 @@ saida_real = deletar_duplicatas(texto_entrada)
 
 
 if saida_real == saida_desejada:
-    print("O caso de teste passou com sucesso!")
+    print("O caso de teste nº2 passou com sucesso!")
 else:
     print("O caso de teste falhou.")
     print("Saída esperada:", saida_desejada)
@@ -75,7 +75,7 @@ string_saida = maior_palindromo(string_entrada)
 
 
 if string_saida == string_esperada:
-    print("O caso de teste passou com sucesso!")
+    print("O caso de teste nº3 passou com sucesso!")
 else:
     print("O caso de teste falhou.")
     print("Saída esperada:", string_esperada)
@@ -92,7 +92,7 @@ def test_capitalize_sentences():
     input_string = "hello, how are you? i'm fine, thank you"
     expected_output = "Hello, how are you? i'm fine, thank you"
     assert capitalize_sentences(input_string) == expected_output
-    print("Os caso de teste foi executado com sucesso!")
+    print("Os caso de teste nº4 foi executado com sucesso!")
 
 
 test_capitalize_sentences()
@@ -118,7 +118,7 @@ saida_booleana = anagrama_palindromo(entrada)
 
 # Verifica se a saída é igual à saída esperada
 if saida_booleana == saida:
-    print("O caso de teste passou com sucesso!")
+    print("O caso de teste nº5 passou com sucesso!")
 else:
     print("O caso de teste falhou.")
     print("Saída esperada:", saida)
