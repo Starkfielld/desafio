@@ -1,7 +1,7 @@
-('C:\\Users\\Bianca Stark\\Desktop\\desafio\\dist\\desafio.exe',
+('C:\\Users\\Bianca Stark\\Desktop\\desafio\\build\\desafio\\desafio.exe',
  True,
  False,
- False,
+ True,
  'c:\\users\\bianca '
  'stark\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PyInstaller\\bootloader\\images\\icon-console.ico',
  None,
@@ -44,59 +44,11 @@
    'PYSOURCE'),
   ('desafio',
    'C:\\Users\\Bianca Stark\\Desktop\\desafio\\desafio.py',
-   'PYSOURCE'),
-  ('VCRUNTIME140.dll',
-   'c:\\users\\bianca '
-   'stark\\appdata\\local\\programs\\python\\python37\\VCRUNTIME140.dll',
-   'BINARY'),
-  ('python37.dll',
-   'c:\\users\\bianca '
-   'stark\\appdata\\local\\programs\\python\\python37\\python37.dll',
-   'BINARY'),
-  ('unicodedata.pyd',
-   'c:\\users\\bianca '
-   'stark\\appdata\\local\\programs\\python\\python37\\DLLs\\unicodedata.pyd',
-   'EXTENSION'),
-  ('_bz2.pyd',
-   'c:\\users\\bianca '
-   'stark\\appdata\\local\\programs\\python\\python37\\DLLs\\_bz2.pyd',
-   'EXTENSION'),
-  ('_hashlib.pyd',
-   'c:\\users\\bianca '
-   'stark\\appdata\\local\\programs\\python\\python37\\DLLs\\_hashlib.pyd',
-   'EXTENSION'),
-  ('_lzma.pyd',
-   'c:\\users\\bianca '
-   'stark\\appdata\\local\\programs\\python\\python37\\DLLs\\_lzma.pyd',
-   'EXTENSION'),
-  ('_ssl.pyd',
-   'c:\\users\\bianca '
-   'stark\\appdata\\local\\programs\\python\\python37\\DLLs\\_ssl.pyd',
-   'EXTENSION'),
-  ('select.pyd',
-   'c:\\users\\bianca '
-   'stark\\appdata\\local\\programs\\python\\python37\\DLLs\\select.pyd',
-   'EXTENSION'),
-  ('_socket.pyd',
-   'c:\\users\\bianca '
-   'stark\\appdata\\local\\programs\\python\\python37\\DLLs\\_socket.pyd',
-   'EXTENSION'),
-  ('libcrypto-1_1.dll',
-   'c:\\users\\bianca '
-   'stark\\appdata\\local\\programs\\python\\python37\\DLLs\\libcrypto-1_1.dll',
-   'BINARY'),
-  ('libssl-1_1.dll',
-   'c:\\users\\bianca '
-   'stark\\appdata\\local\\programs\\python\\python37\\DLLs\\libssl-1_1.dll',
-   'BINARY'),
-  ('base_library.zip',
-   'C:\\Users\\Bianca '
-   'Stark\\Desktop\\desafio\\build\\desafio\\base_library.zip',
-   'DATA')],
+   'PYSOURCE')],
  [],
  False,
  False,
- 1688567529,
+ 1688568233,
  [('run.exe',
    'c:\\users\\bianca '
    'stark\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\PyInstaller\\bootloader\\Windows-64bit-intel\\run.exe',

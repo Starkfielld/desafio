@@ -82,20 +82,26 @@ else:
     print("Saída obtida:", string_saida)
 
 #4
-def capitalize_sentences(input_string):
-    sentences = input_string.split(". ")
-    capitalized_sentences = [sentence.capitalize() for sentence in sentences]
-    output_string = ". ".join(capitalized_sentences)
-    return output_string
+def sentenca_maiuscula(string):
+    sentenca = string.split('\n ')
+    sentenca_capitalizada = [sentence.capitalize() for sentence in sentenca]
+    result = ' '.join(sentenca_capitalizada)
+    return result
 
-def test_capitalize_sentences():
-    input_string = "hello, how are you? i'm fine, thank you"
-    expected_output = "Hello, how are you? i'm fine, thank you"
-    assert capitalize_sentences(input_string) == expected_output
-    print("Os caso de teste nº4 foi executado com sucesso!")
+# Caso de teste
+input_string = "hello,\n how are you?\n i'm fine, thank you"
+expected_output = "Hello, How are you? I'm fine, thank you"
 
+output_string = sentenca_maiuscula(input_string)
 
-test_capitalize_sentences()
+# Verifica se a saída é igual à saída esperada
+if output_string == expected_output:
+    print("O caso de teste nº4 passou com sucesso!")
+else:
+    print("O caso de teste falhou.")
+    print("Saída esperada:", expected_output)
+    print("Saída obtida:", output_string)
+
 
 #5
 from collections import Counter
