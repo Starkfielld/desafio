@@ -25,39 +25,7 @@
  [('desafio',
    'C:\\Users\\Bianca Stark\\Desktop\\desafio\\desafio.py',
    'PYSOURCE')],
- [('argparse',
-   'c:\\users\\bianca '
-   'stark\\appdata\\local\\programs\\python\\python37\\lib\\argparse.py',
-   'PYMODULE'),
-  ('textwrap',
-   'c:\\users\\bianca '
-   'stark\\appdata\\local\\programs\\python\\python37\\lib\\textwrap.py',
-   'PYMODULE'),
-  ('copy',
-   'c:\\users\\bianca '
-   'stark\\appdata\\local\\programs\\python\\python37\\lib\\copy.py',
-   'PYMODULE'),
-  ('gettext',
-   'c:\\users\\bianca '
-   'stark\\appdata\\local\\programs\\python\\python37\\lib\\gettext.py',
-   'PYMODULE'),
-  ('struct',
-   'c:\\users\\bianca '
-   'stark\\appdata\\local\\programs\\python\\python37\\lib\\struct.py',
-   'PYMODULE'),
-  ('_strptime',
-   'c:\\users\\bianca '
-   'stark\\appdata\\local\\programs\\python\\python37\\lib\\_strptime.py',
-   'PYMODULE'),
-  ('datetime',
-   'c:\\users\\bianca '
-   'stark\\appdata\\local\\programs\\python\\python37\\lib\\datetime.py',
-   'PYMODULE'),
-  ('calendar',
-   'c:\\users\\bianca '
-   'stark\\appdata\\local\\programs\\python\\python37\\lib\\calendar.py',
-   'PYMODULE'),
-  ('_py_abc',
+ [('_py_abc',
    'c:\\users\\bianca '
    'stark\\appdata\\local\\programs\\python\\python37\\lib\\_py_abc.py',
    'PYMODULE'),
@@ -68,6 +36,18 @@
   ('getopt',
    'c:\\users\\bianca '
    'stark\\appdata\\local\\programs\\python\\python37\\lib\\getopt.py',
+   'PYMODULE'),
+  ('gettext',
+   'c:\\users\\bianca '
+   'stark\\appdata\\local\\programs\\python\\python37\\lib\\gettext.py',
+   'PYMODULE'),
+  ('copy',
+   'c:\\users\\bianca '
+   'stark\\appdata\\local\\programs\\python\\python37\\lib\\copy.py',
+   'PYMODULE'),
+  ('struct',
+   'c:\\users\\bianca '
+   'stark\\appdata\\local\\programs\\python\\python37\\lib\\struct.py',
    'PYMODULE'),
   ('stringprep',
    'c:\\users\\bianca '
@@ -88,6 +68,26 @@
   ('contextlib',
    'c:\\users\\bianca '
    'stark\\appdata\\local\\programs\\python\\python37\\lib\\contextlib.py',
+   'PYMODULE'),
+  ('_strptime',
+   'c:\\users\\bianca '
+   'stark\\appdata\\local\\programs\\python\\python37\\lib\\_strptime.py',
+   'PYMODULE'),
+  ('datetime',
+   'c:\\users\\bianca '
+   'stark\\appdata\\local\\programs\\python\\python37\\lib\\datetime.py',
+   'PYMODULE'),
+  ('calendar',
+   'c:\\users\\bianca '
+   'stark\\appdata\\local\\programs\\python\\python37\\lib\\calendar.py',
+   'PYMODULE'),
+  ('argparse',
+   'c:\\users\\bianca '
+   'stark\\appdata\\local\\programs\\python\\python37\\lib\\argparse.py',
+   'PYMODULE'),
+  ('textwrap',
+   'c:\\users\\bianca '
+   'stark\\appdata\\local\\programs\\python\\python37\\lib\\textwrap.py',
    'PYMODULE'),
   ('_compression',
    'c:\\users\\bianca '
@@ -113,6 +113,22 @@
    'c:\\users\\bianca '
    'stark\\appdata\\local\\programs\\python\\python37\\lib\\_compat_pickle.py',
    'PYMODULE'),
+  ('string',
+   'c:\\users\\bianca '
+   'stark\\appdata\\local\\programs\\python\\python37\\lib\\string.py',
+   'PYMODULE'),
+  ('subprocess',
+   'c:\\users\\bianca '
+   'stark\\appdata\\local\\programs\\python\\python37\\lib\\subprocess.py',
+   'PYMODULE'),
+  ('selectors',
+   'c:\\users\\bianca '
+   'stark\\appdata\\local\\programs\\python\\python37\\lib\\selectors.py',
+   'PYMODULE'),
+  ('signal',
+   'c:\\users\\bianca '
+   'stark\\appdata\\local\\programs\\python\\python37\\lib\\signal.py',
+   'PYMODULE'),
   ('tempfile',
    'c:\\users\\bianca '
    'stark\\appdata\\local\\programs\\python\\python37\\lib\\tempfile.py',
@@ -132,10 +148,6 @@
   ('logging',
    'c:\\users\\bianca '
    'stark\\appdata\\local\\programs\\python\\python37\\lib\\logging\\__init__.py',
-   'PYMODULE'),
-  ('string',
-   'c:\\users\\bianca '
-   'stark\\appdata\\local\\programs\\python\\python37\\lib\\string.py',
    'PYMODULE'),
   ('shutil',
    'c:\\users\\bianca '
@@ -253,10 +265,6 @@
    'c:\\users\\bianca '
    'stark\\appdata\\local\\programs\\python\\python37\\lib\\socket.py',
    'PYMODULE'),
-  ('selectors',
-   'c:\\users\\bianca '
-   'stark\\appdata\\local\\programs\\python\\python37\\lib\\selectors.py',
-   'PYMODULE'),
   ('http.client',
    'c:\\users\\bianca '
    'stark\\appdata\\local\\programs\\python\\python37\\lib\\http\\client.py',
@@ -324,22 +332,14 @@
   ('typing',
    'c:\\users\\bianca '
    'stark\\appdata\\local\\programs\\python\\python37\\lib\\typing.py',
-   'PYMODULE'),
-  ('subprocess',
-   'c:\\users\\bianca '
-   'stark\\appdata\\local\\programs\\python\\python37\\lib\\subprocess.py',
-   'PYMODULE'),
-  ('signal',
-   'c:\\users\\bianca '
-   'stark\\appdata\\local\\programs\\python\\python37\\lib\\signal.py',
    'PYMODULE')],
- [('python37.dll',
-   'c:\\users\\bianca '
-   'stark\\appdata\\local\\programs\\python\\python37\\python37.dll',
-   'BINARY'),
-  ('VCRUNTIME140.dll',
+ [('VCRUNTIME140.dll',
    'c:\\users\\bianca '
    'stark\\appdata\\local\\programs\\python\\python37\\VCRUNTIME140.dll',
+   'BINARY'),
+  ('python37.dll',
+   'c:\\users\\bianca '
+   'stark\\appdata\\local\\programs\\python\\python37\\python37.dll',
    'BINARY'),
   ('unicodedata.pyd',
    'c:\\users\\bianca '
@@ -348,6 +348,10 @@
   ('_bz2.pyd',
    'c:\\users\\bianca '
    'stark\\appdata\\local\\programs\\python\\python37\\DLLs\\_bz2.pyd',
+   'EXTENSION'),
+  ('select.pyd',
+   'c:\\users\\bianca '
+   'stark\\appdata\\local\\programs\\python\\python37\\DLLs\\select.pyd',
    'EXTENSION'),
   ('_hashlib.pyd',
    'c:\\users\\bianca '
@@ -360,10 +364,6 @@
   ('_ssl.pyd',
    'c:\\users\\bianca '
    'stark\\appdata\\local\\programs\\python\\python37\\DLLs\\_ssl.pyd',
-   'EXTENSION'),
-  ('select.pyd',
-   'c:\\users\\bianca '
-   'stark\\appdata\\local\\programs\\python\\python37\\DLLs\\select.pyd',
    'EXTENSION'),
   ('_socket.pyd',
    'c:\\users\\bianca '
